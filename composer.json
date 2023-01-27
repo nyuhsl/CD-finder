@@ -2,7 +2,7 @@
     "name": "nyuhsl/finder",
     "description": "Finder is a Drupal 8 module to help users find services which meet their criteria",
     "type": "drupal-module",
-    "homepage": "https://it.cornell.edu/custom-web",
+    "homepage": "https://hsl.med.nyu.edu/",
     "authors": [
         {
             "name": "Brian Han",
