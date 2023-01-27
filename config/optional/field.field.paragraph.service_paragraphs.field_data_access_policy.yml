@@ -6,7 +6,7 @@ dependencies:
     - paragraphs.paragraphs_type.service_paragraphs
   module:
     - text
-id: paragraph.service_paragraphs.field_data_access_attributes
+id: paragraph.service_paragraphs.field_data_access_policy
 field_name: field_data_access_attributes
 entity_type: paragraph
 bundle: service_paragraphs
