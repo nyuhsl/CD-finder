@@ -1,10 +1,16 @@
-uuid: 296e50a2-a1f6-4353-858d-f4dbbb774e51
 langcode: en
 status: true
 dependencies:
   config:
-    - field.field.paragraph.service_paragraphs.field_first_category
-    - field.field.paragraph.service_paragraphs.field_second_category
+    - field.field.paragraph.service_paragraphs.field_data_access_attributes
+    - field.field.paragraph.service_paragraphs.field_data_access_policy
+    - field.field.paragraph.service_paragraphs.field_data_submission_attributes
+    - field.field.paragraph.service_paragraphs.field_data_submission_policy
+    - field.field.paragraph.service_paragraphs.field_description
+    - field.field.paragraph.service_paragraphs.field_funders
+    - field.field.paragraph.service_paragraphs.field_keywords
+    - field.field.paragraph.service_paragraphs.field_repository_abbreviation
+    - field.field.paragraph.service_paragraphs.field_repository_url
     - paragraphs.paragraphs_type.service_paragraphs
   module:
     - text
@@ -13,22 +19,78 @@ targetEntityType: paragraph
 bundle: service_paragraphs
 mode: default
 content:
-  field_first_category:
+  field_data_access_attributes:
+    weight: 6
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
     type: text_textarea
+    region: content
+  field_data_access_policy:
+    weight: 8
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textfield
+    region: content
+  field_data_submission_attributes:
+    weight: 5
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_data_submission_policy:
+    weight: 7
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textfield
+    region: content
+  field_description:
+    weight: 4
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_funders:
+    weight: 3
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_keywords:
+    weight: 2
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_repository_abbreviation:
     weight: 0
-    region: content
     settings:
-      rows: 5
+      size: 60
       placeholder: ''
     third_party_settings: {  }
-  field_second_category:
-    type: text_textarea
+    type: string_textfield
+    region: content
+  field_repository_url:
     weight: 1
-    region: content
     settings:
-      rows: 5
+      size: 60
       placeholder: ''
     third_party_settings: {  }
+    type: text_textfield
+    region: content
 hidden:
   created: true
   status: true

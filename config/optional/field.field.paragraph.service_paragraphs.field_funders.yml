@@ -1,0 +1,18 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_funders
+    - paragraphs.paragraphs_type.service_paragraphs
+id: paragraph.service_paragraphs.field_funders
+field_name: field_funders
+entity_type: paragraph
+bundle: service_paragraphs
+label: Funder(s)
+description: 'Institutions that fund the repository'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

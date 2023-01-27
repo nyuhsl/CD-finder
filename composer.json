@@ -1,29 +1,18 @@
 {
-    "name": "cubear/finder",
+    "name": "nyuhsl/finder",
     "description": "Finder is a Drupal 8 module to help users find services which meet their criteria",
     "type": "drupal-module",
     "homepage": "https://it.cornell.edu/custom-web",
     "authors": [
         {
-            "name": "Rich Marisa (richmarisa)",
-            "email": "rjm2@cornell.edu",
-            "homepage": "https://wildgoosechase.net",
+            "name": "Brian Han",
+            "email": "brian.han@nyulangone.org",
             "role": "Author"
         },
         {
-            "name": "Nazrin Tingstrom",
-            "email": "nazrin.tingstrom@cornell.edu",
+            "name": "Nicole Contaxis",
+            "email": "nicole.contaxis@nyulangone.org",
             "role": "Co-maintainer"
-        },
-        {
-            "name": "Kevin McGuire",
-            "email": "kpm75@cornell.edu",
-            "role": "Designer"
-        },
-        {
-            "name": "Anthony Adinolfi",
-            "email": "ama39@cornell.edu",
-            "role": "Designer"
         }
     ],
     "support": {

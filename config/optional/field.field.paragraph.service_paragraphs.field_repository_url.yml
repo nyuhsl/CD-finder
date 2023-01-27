@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_repository_url
+    - paragraphs.paragraphs_type.service_paragraphs
+  module:
+    - text
+id: paragraph.service_paragraphs.field_repository_url
+field_name: field_repository_url
+entity_type: paragraph
+bundle: service_paragraphs
+label: 'Repository URL'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

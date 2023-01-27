@@ -31,7 +31,7 @@ We recommend starting with a simple example like that presented below to familia
 ### Require the Finder module:
 
 * cd  testdrupal
-* composer  require cubear/finder
+* composer  require nyuhsl/finder
 
 Note: If you aren’t using composer to manage your Drupal 8 site, you can clone the module from: https://github.com/CU-CommunityApps/CD-finder
 
