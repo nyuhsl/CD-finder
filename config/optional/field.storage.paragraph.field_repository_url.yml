@@ -1,20 +1,19 @@
 langcode: en
 status: true
 dependencies:
-  config:
-    - field.storage.paragraph.field_data_submission_attributes
-    - paragraphs.paragraphs_type.service_paragraphs
   module:
+    - paragraphs
     - text
-id: paragraph.service_paragraphs.field_data_submission_attributes
-field_name: field_data_submission_attributes
+id: paragraph.field_repository_url
+field_name: field_repository_url
 entity_type: paragraph
-bundle: service_paragraphs
-label: 'Data Submission Attributes'
-description: ''
-required: false
-translatable: false
-default_value: {  }
-default_value_callback: ''
-settings: {  }
-field_type: text_long
+type: text
+settings:
+  max_length: 300
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
